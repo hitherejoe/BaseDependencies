@@ -4,6 +4,6 @@ object BaseVersions {
     val kotlin = "1.2.71"
 }
 
-object BaseDeps {
+class BaseDeps {
     val kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jre8:${BaseVersions.kotlin}"
 }
